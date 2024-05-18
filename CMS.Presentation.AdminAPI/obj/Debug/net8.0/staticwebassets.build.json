@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cJuoDsNJoeoBs0W8SjLEaczk0AK1FceSuw8AUbIcSEk=",
+  "Source": "CMS.Presentation.AdminAPI",
+  "BasePath": "_content/CMS.Presentation.AdminAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

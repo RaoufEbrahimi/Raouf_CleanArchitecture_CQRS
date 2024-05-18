@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CMS.Presentation.AdminAPI.props" />
+</Project>

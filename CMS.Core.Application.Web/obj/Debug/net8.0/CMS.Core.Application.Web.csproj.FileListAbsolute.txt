@@ -1,0 +1,16 @@
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Web\bin\Debug\net8.0\CMS.Core.Application.Web.deps.json
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Web\bin\Debug\net8.0\CMS.Core.Application.Web.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Web\bin\Debug\net8.0\CMS.Core.Application.Web.pdb
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Web\bin\Debug\net8.0\CMS.Core.Domain.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Web\bin\Debug\net8.0\CMS.Core.Domain.pdb
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Web\obj\Debug\net8.0\CMS.Core.Application.Web.csproj.AssemblyReference.cache
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Web\obj\Debug\net8.0\CMS.Core.Application.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Web\obj\Debug\net8.0\CMS.Core.Application.Web.AssemblyInfoInputs.cache
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Web\obj\Debug\net8.0\CMS.Core.Application.Web.AssemblyInfo.cs
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Web\obj\Debug\net8.0\CMS.Core.Application.Web.csproj.CoreCompileInputs.cache
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Web\obj\Debug\net8.0\CMS.Core.Application.Web.sourcelink.json
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Web\obj\Debug\net8.0\CMS.Core.Application.Web.csproj.CopyComplete
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Web\obj\Debug\net8.0\CMS.Core.Application.Web.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Web\obj\Debug\net8.0\refint\CMS.Core.Application.Web.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Web\obj\Debug\net8.0\CMS.Core.Application.Web.pdb
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Web\obj\Debug\net8.0\ref\CMS.Core.Application.Web.dll

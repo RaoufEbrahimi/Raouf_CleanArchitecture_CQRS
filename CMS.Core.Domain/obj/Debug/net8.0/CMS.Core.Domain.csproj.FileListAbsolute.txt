@@ -1,0 +1,12 @@
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Domain\bin\Debug\net8.0\CMS.Core.Domain.deps.json
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Domain\bin\Debug\net8.0\CMS.Core.Domain.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Domain\bin\Debug\net8.0\CMS.Core.Domain.pdb
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Domain\obj\Debug\net8.0\CMS.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Domain\obj\Debug\net8.0\CMS.Core.Domain.AssemblyInfoInputs.cache
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Domain\obj\Debug\net8.0\CMS.Core.Domain.AssemblyInfo.cs
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Domain\obj\Debug\net8.0\CMS.Core.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Domain\obj\Debug\net8.0\CMS.Core.Domain.sourcelink.json
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Domain\obj\Debug\net8.0\CMS.Core.Domain.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Domain\obj\Debug\net8.0\refint\CMS.Core.Domain.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Domain\obj\Debug\net8.0\CMS.Core.Domain.pdb
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Domain\obj\Debug\net8.0\ref\CMS.Core.Domain.dll

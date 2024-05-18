@@ -1,0 +1,16 @@
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\bin\Debug\net8.0\CMS.Core.Application.Admin.deps.json
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\bin\Debug\net8.0\CMS.Core.Application.Admin.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\bin\Debug\net8.0\CMS.Core.Application.Admin.pdb
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\bin\Debug\net8.0\CMS.Core.Domain.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\bin\Debug\net8.0\CMS.Core.Domain.pdb
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\CMS.Core.Application.Admin.csproj.AssemblyReference.cache
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\CMS.Core.Application.Admin.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\CMS.Core.Application.Admin.AssemblyInfoInputs.cache
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\CMS.Core.Application.Admin.AssemblyInfo.cs
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\CMS.Core.Application.Admin.csproj.CoreCompileInputs.cache
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\CMS.Core.Application.Admin.sourcelink.json
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\CMS.Core.Application.Admin.csproj.CopyComplete
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\CMS.Core.Application.Admin.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\refint\CMS.Core.Application.Admin.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\CMS.Core.Application.Admin.pdb
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\ref\CMS.Core.Application.Admin.dll

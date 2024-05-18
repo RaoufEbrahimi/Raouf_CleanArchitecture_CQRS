@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Behaviours\" />
+    <Folder Include="Common\Exteptions\" />
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="Common\Services\Blog\" />
+    <Folder Include="Features\Blog\Commands\" />
+    <Folder Include="Features\Blog\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CMS.Core.Domain\CMS.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "F0kzIlLF/SQZBgwu0z3XRxcQlEOZqC7fVUgt2vo/qGI=",
+  "Source": "CMS.Presentation.WebAPI",
+  "BasePath": "_content/CMS.Presentation.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CMS.Core.Application.Admin/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CMS.Core.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CMS.Core.Application.Admin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CMS.Core.Application.Admin.dll": {}
+        }
+      },
+      "CMS.Core.Application.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CMS.Core.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CMS.Core.Application.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CMS.Core.Application.Web.dll": {}
+        }
+      },
+      "CMS.Core.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CMS.Core.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CMS.Core.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CMS.Core.Application.Admin/1.0.0": {
+      "type": "project",
+      "path": "../CMS.Core.Application.Admin/CMS.Core.Application.Admin.csproj",
+      "msbuildProject": "../CMS.Core.Application.Admin/CMS.Core.Application.Admin.csproj"
+    },
+    "CMS.Core.Application.Web/1.0.0": {
+      "type": "project",
+      "path": "../CMS.Core.Application.Web/CMS.Core.Application.Web.csproj",
+      "msbuildProject": "../CMS.Core.Application.Web/CMS.Core.Application.Web.csproj"
+    },
+    "CMS.Core.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CMS.Core.Domain/CMS.Core.Domain.csproj",
+      "msbuildProject": "../CMS.Core.Domain/CMS.Core.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CMS.Core.Application.Admin >= 1.0.0",
+      "CMS.Core.Application.Web >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Utility\\CMS.Infrastructure.Utility.csproj",
+      "projectName": "CMS.Infrastructure.Utility",
+      "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Utility\\CMS.Infrastructure.Utility.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Utility\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Admin\\CMS.Core.Application.Admin.csproj": {
+              "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Admin\\CMS.Core.Application.Admin.csproj"
+            },
+            "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Web\\CMS.Core.Application.Web.csproj": {
+              "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Web\\CMS.Core.Application.Web.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
