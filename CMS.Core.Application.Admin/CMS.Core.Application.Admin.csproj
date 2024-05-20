@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Common\Behaviours\" />
-    <Folder Include="Common\Exteptions\" />
+    <Folder Include="Common\Exceptions\" />
     <Folder Include="Common\Interfaces\" />
     <Folder Include="Common\Services\User\" />
     <Folder Include="Features\User\Commands\" />

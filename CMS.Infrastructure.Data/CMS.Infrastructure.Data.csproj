@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CMS.Core.Application.Admin\CMS.Core.Application.Admin.csproj" />
-    <ProjectReference Include="..\CMS.Core.Application.Web\CMS.Core.Application.Web.csproj" />
+    <Folder Include="Configuration\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Configuration\" />
+    <ProjectReference Include="..\CMS.Core.Domain\CMS.Core.Domain.csproj" />
+    <ProjectReference Include="..\CMS.Infrastructure.Utility\CMS.Infrastructure.Utility.csproj" />
   </ItemGroup>
 
 </Project>

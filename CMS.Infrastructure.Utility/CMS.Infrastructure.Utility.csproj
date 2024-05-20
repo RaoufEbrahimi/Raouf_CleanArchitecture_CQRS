@@ -11,4 +11,10 @@
     <ProjectReference Include="..\CMS.Core.Application.Web\CMS.Core.Application.Web.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Extentions\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
