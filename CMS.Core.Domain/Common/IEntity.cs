@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CMS.Core.Domain.Common
 {
-    internal interface IEntity
+    public interface IEntity
     {
     }
 }

@@ -1,27 +1,33 @@
-﻿using System;
+﻿using CMS.Core.Domain.Common;
+using CMS.Core.Domain.Entities;
+using CMS.Infrastructure.Data.Context;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CMS.Infrastructure.Data.Repositories
+namespace CMS.Infrastructure.Data.Repositories;
+
+public class GenericRepository<TEntity> where TEntity : IEntity
 {
-    public class GenericRepository<TEntity> where TEntity : class
+    protected readonly CMSDbContext _context;
+    public GenericRepository(CMSDbContext context) => _context = context;
+    public async Task Add(TEntity entity)
     {
-       async Task Add(TEntity entity) { 
-        
-        }
-        async Task UpDate(TEntity entity)
-        {
 
-        }
-        async Task Delete(TEntity entity)
-        {
-
-        }
-        async Task Finde(int id)
-        {
-
-        }
     }
+    public async Task Update(TEntity entity)
+    {
+
+    }
+    public async Task Delete(TEntity entity)
+    {
+       
+    }
+   //public async Task<TEntity> Find(int id)
+   // {
+   //     return TEntity;
+   // }
+
 }

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BhR99Ag5lz2Ngug+0gLAYpBIjRnfJloKoAegk+aQEEwbxVMKabL8/a4wLpbL4mGUH7/nC2AwrO/uC50dupfy3Q==",
+  "dgSpecHash": "qliX6uMwsmNhO5/8zrKvVyt7tLefJhvxrwVrWVYlbnpwrgg3Z8uBksTjmmSoyOICdAA7rHfSrUWTj1Nv0ObM7Q==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Utility\\CMS.Infrastructure.Utility.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CMS.Core.Domain.Repositories
 {
-    internal interface IBlogRepository
+    public interface IBlogRepository
     {
         Task Add(Blog blog);
         Task Update(Blog blog);

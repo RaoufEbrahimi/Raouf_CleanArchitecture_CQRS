@@ -63,3 +63,9 @@ D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\obj\Debug\net8.
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\obj\Debug\net8.0\CMS.Presentation.WebAPI.pdb
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\obj\Debug\net8.0\CMS.Presentation.WebAPI.genruntimeconfig.cache
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\obj\Debug\net8.0\ref\CMS.Presentation.WebAPI.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\MediatR.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\CMS.Core.Application.Web.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\CMS.Core.Domain.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\CMS.Core.Application.Web.pdb
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\CMS.Core.Domain.pdb

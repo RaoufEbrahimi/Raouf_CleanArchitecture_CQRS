@@ -4,14 +4,160 @@
     "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Presentation.WebAPI\\CMS.Presentation.WebAPI.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Presentation.WebAPI\\CMS.Presentation.WebAPI.csproj": {
+    "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Admin\\CMS.Core.Application.Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Presentation.WebAPI\\CMS.Presentation.WebAPI.csproj",
-        "projectName": "CMS.Presentation.WebAPI",
-        "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Presentation.WebAPI\\CMS.Presentation.WebAPI.csproj",
+        "projectUniqueName": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Admin\\CMS.Core.Application.Admin.csproj",
+        "projectName": "CMS.Core.Application.Admin",
+        "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Admin\\CMS.Core.Application.Admin.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Presentation.WebAPI\\obj\\",
+        "outputPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Admin\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Domain\\CMS.Core.Domain.csproj": {
+                "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Domain\\CMS.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Web\\CMS.Core.Application.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Web\\CMS.Core.Application.Web.csproj",
+        "projectName": "CMS.Core.Application.Web",
+        "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Web\\CMS.Core.Application.Web.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Domain\\CMS.Core.Domain.csproj": {
+                "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Domain\\CMS.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Domain\\CMS.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Domain\\CMS.Core.Domain.csproj",
+        "projectName": "CMS.Core.Domain",
+        "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Domain\\CMS.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,10 +189,249 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Data\\CMS.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Data\\CMS.Infrastructure.Data.csproj",
+        "projectName": "CMS.Infrastructure.Data",
+        "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Data\\CMS.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Domain\\CMS.Core.Domain.csproj": {
+                "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Domain\\CMS.Core.Domain.csproj"
+              },
+              "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Utility\\CMS.Infrastructure.Utility.csproj": {
+                "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Utility\\CMS.Infrastructure.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Utility\\CMS.Infrastructure.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Utility\\CMS.Infrastructure.Utility.csproj",
+        "projectName": "CMS.Infrastructure.Utility",
+        "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Utility\\CMS.Infrastructure.Utility.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Admin\\CMS.Core.Application.Admin.csproj": {
+                "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Admin\\CMS.Core.Application.Admin.csproj"
+              },
+              "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Web\\CMS.Core.Application.Web.csproj": {
+                "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Web\\CMS.Core.Application.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Presentation.WebAPI\\CMS.Presentation.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Presentation.WebAPI\\CMS.Presentation.WebAPI.csproj",
+        "projectName": "CMS.Presentation.WebAPI",
+        "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Presentation.WebAPI\\CMS.Presentation.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Presentation.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Web\\CMS.Core.Application.Web.csproj": {
+                "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Web\\CMS.Core.Application.Web.csproj"
+              },
+              "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Data\\CMS.Infrastructure.Data.csproj": {
+                "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Data\\CMS.Infrastructure.Data.csproj"
+              },
+              "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Utility\\CMS.Infrastructure.Utility.csproj": {
+                "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Utility\\CMS.Infrastructure.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
