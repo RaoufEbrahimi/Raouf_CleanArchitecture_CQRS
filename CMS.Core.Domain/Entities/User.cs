@@ -14,6 +14,6 @@ namespace CMS.Core.Domain.Entities
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public Gender Gender { get; set; }
-        public Addres MyProperty { get; set; }
+        public Addres Addres { get; set; }
     }
 }

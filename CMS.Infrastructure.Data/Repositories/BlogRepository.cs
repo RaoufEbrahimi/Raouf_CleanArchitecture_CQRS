@@ -6,9 +6,6 @@ namespace CMS.Infrastructure.Data.Repositories
 {
     public class BlogRepository(CMSDbContext context) : GenericRepository<Blog>(context), IBlogRepository
     {
-        public Task<Blog> Find(int id)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }

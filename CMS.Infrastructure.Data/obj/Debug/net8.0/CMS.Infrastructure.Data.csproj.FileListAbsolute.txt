@@ -18,3 +18,7 @@ D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Data\obj\Debug\net8.
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Data\obj\Debug\net8.0\refint\CMS.Infrastructure.Data.dll
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Data\obj\Debug\net8.0\CMS.Infrastructure.Data.pdb
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Data\obj\Debug\net8.0\ref\CMS.Infrastructure.Data.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Data\bin\Debug\net8.0\CMS.Infrastructure.Data.runtimeconfig.json
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Data\bin\Debug\net8.0\CMS.Infrastructure.Utility.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Data\bin\Debug\net8.0\CMS.Infrastructure.Utility.pdb
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Data\obj\Debug\net8.0\CMS.Infrastructure.Data.genruntimeconfig.cache

@@ -13,5 +13,6 @@ namespace CMS.Core.Domain.Repositories
         Task Update(Blog blog);
         Task<Blog> Find(int id);
         Task Delete(Blog blog);
+        
     }
 }
