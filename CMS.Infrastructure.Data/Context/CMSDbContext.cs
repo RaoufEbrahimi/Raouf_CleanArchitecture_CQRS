@@ -16,19 +16,9 @@ public class CMSDbContext(DbContextOptions<CMSDbContext> options) : DbContext(op
 {
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        //modelBuilder.Entity<Blog>(entity =>
-        //{
-        //    entity.ToTable("Blog");
-        //    entity.Property(e => e.Title).IsRequired();
-        //    entity.Property(e => e.Title).HasMaxLength(100);
-        //    entity.Property(e => e.Id).UseIdentityColumn();
-        //});
-        //modelBuilder.Entity<User>(entity =>
-        //{
-        //    entity.ToTable("User");
-        //    entity.ComplexProperty(x => x.Addres);
-        //});
+        modelBuilder.HasDefaultSchema("CMS");
         modelBuilder.RegisterAllEntities<BaseEntity>();
+        modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         base.OnModelCreating(modelBuilder);
     }
 

@@ -11,6 +11,8 @@
     <Folder Include="Common\Exceptions\" />
     <Folder Include="Common\Interfaces\" />
     <Folder Include="Common\Services\User\" />
+    <Folder Include="DTOs\Blog\" />
+    <Folder Include="DTOs\User\" />
     <Folder Include="Features\User\Commands\" />
     <Folder Include="Features\User\Queries\" />
   </ItemGroup>

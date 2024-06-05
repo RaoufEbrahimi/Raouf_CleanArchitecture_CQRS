@@ -15,5 +15,6 @@ namespace CMS.Core.Domain.Entities
         public string LastName { get; set; }
         public Gender Gender { get; set; }
         public Addres Addres { get; set; }
+        public virtual ICollection<Blog> Blogs { get; set; }
     }
 }
