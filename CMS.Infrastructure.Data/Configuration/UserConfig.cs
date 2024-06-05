@@ -13,18 +13,21 @@ namespace CMS.Infrastructure.Data.Configuration
         public void Configure(EntityTypeBuilder<User> builder)
         {
             builder.HasKey(x => x.Id);
+
             builder.Property(x => x.FirstName)
                 .IsRequired()
                 .HasMaxLength(50);
-           
+
             builder.Property(x => x.LastName)
                 .IsRequired()
                 .HasMaxLength(50);
-           
+
             builder.HasMany(x => x.Blogs)
                 .WithOne(x => x.User)
                 .HasForeignKey(x => x.UserId)
                 .HasPrincipalKey(x => x.Id);
+
+            builder.OwnsOne(x => x.Addres);
         }
     }
 }

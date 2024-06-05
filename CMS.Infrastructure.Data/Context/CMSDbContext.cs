@@ -1,14 +1,5 @@
-﻿using CMS.Core.Domain.Common;
-using CMS.Core.Domain.Entities;
-using CMS.Core.Domain.ValueObjects;
-using CMS.Infrastructure.Data.Extensions;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using CMS.Infrastructure.Data.Extensions;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CMS.Infrastructure.Data.Context;
 

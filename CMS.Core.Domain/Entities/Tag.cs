@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CMS.Core.Domain.Common;
+using System.ComponentModel.DataAnnotations;
 
-namespace CMS.Core.Domain.Entities
+namespace CMS.Core.Domain.Entities;
+
+public class Tag :BaseEntity
 {
-    public class Tag
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public ICollection<Blog>? Blogs { get; set; }
-    }
+    
+    public string Name { get; set; }
+    public ICollection<Blog>? Blogs { get; set; }
 }
