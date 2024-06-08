@@ -1,8 +1,9 @@
 ﻿using CMS.Core.Domain.Repositories;
-using CMS.Infrastructure.Data.Context;
+using CMS.Core.Domain.Repositories.Commands;
+using CMS.Core.Domain.Repositories.Queries;
 using CMS.Infrastructure.Data.Repositories;
+using CMS.Infrastructure.Data.Repositories.Commands;
 using CMS.Infrastructure.Data.UnitOfWork;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -17,8 +18,12 @@ public static class ConfigurationServices
 
 
         services.AddScoped<IUnitOfWork, AppUnitOfWork>();
-        services.AddScoped<IUserRepository, UserRepository>();
-        services.AddScoped<IBlogRepository, BlogRepository>();
+        //user
+        services.AddScoped<IUserCommandRepository, UserCommandRepository>();
+        services.AddScoped<IUserQueryRepository, UserQueryRepository>();
+        //blog
+        services.AddScoped<IBlogCommandRepository, BlogCommandRepository>();
+        services.AddScoped<IBlogQueryRepository, BlogQueryRepository>();
 
         return services;
     }
