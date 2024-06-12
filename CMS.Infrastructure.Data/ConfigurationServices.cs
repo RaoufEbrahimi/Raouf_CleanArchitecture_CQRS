@@ -1,6 +1,6 @@
-﻿using CMS.Core.Domain.Repositories;
-using CMS.Core.Domain.Repositories.Commands;
-using CMS.Core.Domain.Repositories.Queries;
+﻿using CMS.Core.Domain.Interfaces.Repositories;
+using CMS.Core.Domain.Interfaces.Repositories.Commands;
+using CMS.Core.Domain.Interfaces.Repositories.Queries;
 using CMS.Infrastructure.Data.Repositories;
 using CMS.Infrastructure.Data.Repositories.Commands;
 using CMS.Infrastructure.Data.UnitOfWork;

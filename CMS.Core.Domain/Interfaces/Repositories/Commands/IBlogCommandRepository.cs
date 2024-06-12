@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CMS.Core.Domain.Repositories.Commands
+namespace CMS.Core.Domain.Interfaces.Repositories.Commands
 {
     public interface IBlogCommandRepository
     {

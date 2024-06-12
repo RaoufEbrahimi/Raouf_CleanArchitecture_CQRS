@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CMS.Core.Domain.Repositories.Commands
+namespace CMS.Core.Domain.Interfaces.Repositories.Commands
 {
     public interface IUserCommandRepository
     {
         Task Add(User user);
         Task Update(User user);
-   
+
     }
 }

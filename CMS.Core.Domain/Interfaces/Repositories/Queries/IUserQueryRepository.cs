@@ -5,13 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CMS.Core.Domain.Repositories.Queries
+namespace CMS.Core.Domain.Interfaces.Repositories.Queries
 {
-    public interface IBlogQueryRepository
+    public interface IUserQueryRepository
     {
-       
-        Task<Blog> Find(int id);
-    
-
+        Task<User> Find(int id);
     }
 }
