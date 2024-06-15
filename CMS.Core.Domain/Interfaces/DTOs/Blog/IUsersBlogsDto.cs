@@ -11,6 +11,6 @@ namespace CMS.Core.Domain.Interfaces.DTOs.Blog
         public int BlogId { get; set; }
         public int UserId { get; set; }
         public string BlogTitle { get; set; }
-        public string UserName { get; set; }
+        public string UserFullName { get; set; }
     }
 }

@@ -4704,45 +4704,42 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/raouf/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Presentation.AdminAPI\\CMS.Presentation.AdminAPI.csproj",
+      "projectUniqueName": "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/CMS.Presentation.AdminAPI/CMS.Presentation.AdminAPI.csproj",
       "projectName": "CMS.Presentation.AdminAPI",
-      "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Presentation.AdminAPI\\CMS.Presentation.AdminAPI.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Presentation.AdminAPI\\obj\\",
+      "projectPath": "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/CMS.Presentation.AdminAPI/CMS.Presentation.AdminAPI.csproj",
+      "packagesPath": "/Users/raouf/.nuget/packages/",
+      "outputPath": "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/CMS.Presentation.AdminAPI/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/raouf/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Admin\\CMS.Core.Application.Admin.csproj": {
-              "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Admin\\CMS.Core.Application.Admin.csproj"
+            "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/CMS.Core.Application.Admin/CMS.Core.Application.Admin.csproj": {
+              "projectPath": "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/CMS.Core.Application.Admin/CMS.Core.Application.Admin.csproj"
             },
-            "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Data\\CMS.Infrastructure.Data.csproj": {
-              "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Data\\CMS.Infrastructure.Data.csproj"
+            "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/CMS.Infrastructure.Data/CMS.Infrastructure.Data.csproj": {
+              "projectPath": "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/CMS.Infrastructure.Data/CMS.Infrastructure.Data.csproj"
             },
-            "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Utility\\CMS.Infrastructure.Utility.csproj": {
-              "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Infrastructure.Utility\\CMS.Infrastructure.Utility.csproj"
+            "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/CMS.Infrastructure.Utility/CMS.Infrastructure.Utility.csproj": {
+              "projectPath": "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/CMS.Infrastructure.Utility/CMS.Infrastructure.Utility.csproj"
             }
           }
         }
@@ -4804,7 +4801,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

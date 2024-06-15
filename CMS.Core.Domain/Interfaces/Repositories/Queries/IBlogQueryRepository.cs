@@ -1,4 +1,4 @@
-﻿using CMS.Core.Domain.DTOs.Blog;
+﻿
 using CMS.Core.Domain.Entities;
 using CMS.Core.Domain.Interfaces.DTOs.Blog;
 
@@ -9,7 +9,7 @@ namespace CMS.Core.Domain.Interfaces.Repositories.Queries
     {
 
         Task<Blog> Find(int id);
-        Task<List<IUsersBlogsDto>> GetListUserBlogs(int id);
+        Task<IEnumerable<IUsersBlogsDto>> GetListUserBlogs(int id);
 
     }
 }

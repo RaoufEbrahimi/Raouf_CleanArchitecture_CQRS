@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ar1AIXQhi8s=",
+  "dgSpecHash": "SsHAlfZO0y0=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Domain\\CMS.Core.Domain.csproj",
+  "projectFilePath": "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/CMS.Core.Domain/CMS.Core.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
