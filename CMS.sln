@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMS.Infrastructure.Data", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.Core.Domain", "CMS.Core.Domain\CMS.Core.Domain.csproj", "{8C35AFF2-59B6-462A-9305-D65E4E4B35EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS.Test.Application.Admin", "Test\CMS.Test.Application.Admin\CMS.Test.Application.Admin.csproj", "{A37FA9B1-2DD5-42F4-A6BF-32C8AA777BAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{8C35AFF2-59B6-462A-9305-D65E4E4B35EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C35AFF2-59B6-462A-9305-D65E4E4B35EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C35AFF2-59B6-462A-9305-D65E4E4B35EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37FA9B1-2DD5-42F4-A6BF-32C8AA777BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37FA9B1-2DD5-42F4-A6BF-32C8AA777BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37FA9B1-2DD5-42F4-A6BF-32C8AA777BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37FA9B1-2DD5-42F4-A6BF-32C8AA777BAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{6D7B38F1-E1E5-45BA-8F23-9E9B88C0E8BD} = {5715FDC9-BCE1-42A7-9B53-0BBC29DED82F}
 		{721FD73C-A8A1-4880-B688-7FA6FCC09217} = {5715FDC9-BCE1-42A7-9B53-0BBC29DED82F}
 		{8C35AFF2-59B6-462A-9305-D65E4E4B35EC} = {158C9936-BEAA-406E-8E8C-B095489F90AD}
+		{A37FA9B1-2DD5-42F4-A6BF-32C8AA777BAC} = {1FB22307-C9F5-4173-8C00-22B4685589B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86103C62-67EB-4813-8F8A-5EE50EF2CB9F}
