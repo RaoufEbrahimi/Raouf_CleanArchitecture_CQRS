@@ -31,4 +31,8 @@ public class GenericRepository<TEntity> where TEntity : class, IEntity
     {
         return await _context.Set<TEntity>().AsNoTracking().Where(expression).Select(selector).ToListAsync();
     }
+    public async Task<bool> AnyAsync(Expression<Func<TEntity, bool>> expression)
+    {
+        return await _context.Set<TEntity>().AnyAsync(expression);
+    }
 }

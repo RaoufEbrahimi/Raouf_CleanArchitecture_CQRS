@@ -137,36 +137,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/raouf/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/CMS.Core.Application.Web/CMS.Core.Application.Web.csproj",
+      "projectUniqueName": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Web\\CMS.Core.Application.Web.csproj",
       "projectName": "CMS.Core.Application.Web",
-      "projectPath": "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/CMS.Core.Application.Web/CMS.Core.Application.Web.csproj",
-      "packagesPath": "/Users/raouf/.nuget/packages/",
-      "outputPath": "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/CMS.Core.Application.Web/obj/",
+      "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Web\\CMS.Core.Application.Web.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Application.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "/Users/raouf/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/CMS.Core.Domain/CMS.Core.Domain.csproj": {
-              "projectPath": "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/CMS.Core.Domain/CMS.Core.Domain.csproj"
+            "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Domain\\CMS.Core.Domain.csproj": {
+              "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\CMS.Core.Domain\\CMS.Core.Domain.csproj"
             }
           }
         }
@@ -211,7 +214,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,28 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/Test/CMS.Test.Application.Admin/CMS.Test.Application.Admin.csproj": {}
+    "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\Test\\CMS.Test.Application.Admin\\CMS.Test.Application.Admin.csproj": {}
   },
   "projects": {
-    "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/Test/CMS.Test.Application.Admin/CMS.Test.Application.Admin.csproj": {
+    "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\Test\\CMS.Test.Application.Admin\\CMS.Test.Application.Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/Test/CMS.Test.Application.Admin/CMS.Test.Application.Admin.csproj",
+        "projectUniqueName": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\Test\\CMS.Test.Application.Admin\\CMS.Test.Application.Admin.csproj",
         "projectName": "CMS.Test.Application.Admin",
-        "projectPath": "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/Test/CMS.Test.Application.Admin/CMS.Test.Application.Admin.csproj",
-        "packagesPath": "/Users/raouf/.nuget/packages/",
-        "outputPath": "/Users/raouf/Documents/GitHub/Raouf_CleanArchitecture_CQRS/Test/CMS.Test.Application.Admin/obj/",
+        "projectPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\Test\\CMS.Test.Application.Admin\\CMS.Test.Application.Admin.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Raouf_CleanArchitecture_CQRS\\Test\\CMS.Test.Application.Admin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "/Users/raouf/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
