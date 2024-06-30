@@ -1,4 +1,6 @@
-﻿namespace CMS.Infrastructure.Data.Repositories;
+﻿using System.Threading;
+
+namespace CMS.Infrastructure.Data.Repositories;
 
 public class GenericRepository<TEntity> where TEntity : class, IEntity
 {
@@ -17,22 +19,22 @@ public class GenericRepository<TEntity> where TEntity : class, IEntity
     {
         _context.Set<TEntity>().Remove(entity);
     }
-    public async Task<TEntity> Find(int id) => await _context.Set<TEntity>().FindAsync(id);
+    public async Task<TEntity> Find(int id, CancellationToken cancellationToken) => await _context.Set<TEntity>().FindAsync(id, cancellationToken);
 
-    public async Task<TResult> FirstOrDefaultAsyncAsNoTracking<TResult>(Expression<Func<TEntity, bool>> expression, Expression<Func<TEntity, TResult>> selector)
+    public async Task<TResult> FirstOrDefaultAsyncAsNoTracking<TResult>(Expression<Func<TEntity, bool>> expression, Expression<Func<TEntity, TResult>> selector, CancellationToken cancellationToken)
     {
-        return await _context.Set<TEntity>().AsNoTracking().Where(expression).Select(selector).FirstOrDefaultAsync();
+        return await _context.Set<TEntity>().AsNoTracking().Where(expression).Select(selector).FirstOrDefaultAsync(cancellationToken);
     }
-    public async Task<TEntity> FirstOrDefaultAsync(Expression<Func<TEntity, bool>> expression)
+    public async Task<TEntity> FirstOrDefaultAsync(Expression<Func<TEntity, bool>> expression, CancellationToken cancellationToken)
     {
-        return await _context.Set<TEntity>().FirstOrDefaultAsync(expression);
+        return await _context.Set<TEntity>().FirstOrDefaultAsync(expression, cancellationToken);
     }
-    public async Task<IEnumerable<TResult>> GetListAsNoTrackingAsync<TResult>(Expression<Func<TEntity, bool>> expression, Expression<Func<TEntity, TResult>> selector)
+    public async Task<IEnumerable<TResult>> GetListAsNoTrackingAsync<TResult>(Expression<Func<TEntity, bool>> expression, Expression<Func<TEntity, TResult>> selector, CancellationToken cancellationToken)
     {
-        return await _context.Set<TEntity>().AsNoTracking().Where(expression).Select(selector).ToListAsync();
+        return await _context.Set<TEntity>().AsNoTracking().Where(expression).Select(selector).ToListAsync(cancellationToken);
     }
-    public async Task<bool> AnyAsync(Expression<Func<TEntity, bool>> expression)
+    public async Task<bool> AnyAsync(Expression<Func<TEntity, bool>> expression, CancellationToken cancellationToken)
     {
-        return await _context.Set<TEntity>().AnyAsync(expression);
+        return await _context.Set<TEntity>().AnyAsync(expression, cancellationToken);
     }
 }

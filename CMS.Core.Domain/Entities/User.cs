@@ -8,6 +8,7 @@ public class User : BaseEntity
 {
     public string FirstName { get; set; }
     public string LastName { get; set; }
+    public string AliasName { get; set; }
     public Gender Gender { get; set; }
     public Addres Addres { get; set; }
     public virtual ICollection<Blog> Blogs { get; set; }

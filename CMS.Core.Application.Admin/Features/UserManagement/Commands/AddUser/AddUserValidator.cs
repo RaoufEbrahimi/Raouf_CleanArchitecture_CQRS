@@ -15,12 +15,16 @@ public class AddUserValidator : AbstractValidator<AddUserCommand>
     {
         _userQueryRepository = userQueryRepository;
 
-        RuleFor(x => x.FirstName).NotNull().NotEmpty().WithMessage("First Name cannot be null");
-        RuleFor(x => x.LastName).NotNull().NotEmpty().WithMessage("Last Name cannot be null");
+        RuleFor(x => x.FirstName)
+            .NotNull().NotEmpty().WithMessage("First Name cannot be null");
+        
+        RuleFor(x => x.LastName)
+            .NotNull().NotEmpty().WithMessage("Last Name cannot be null");
 
-       
+        RuleFor(x => x.AliasName)
+            .MustAsync(IsThisNameExist).WithMessage("Last Name cannot be null");
     }
 
-    //private async Task<bool> IsThisNameExist(AddUserCommand command) => await _userQueryRepository.AnyAsync(d => d.FirstName == command.FirstName && d.LastName == command.LastName);
+    private async Task<bool> IsThisNameExist(string aliasName, CancellationToken cancellationToken) => await _userQueryRepository.AnyAsync(d => d.AliasName == aliasName, cancellationToken);
 
 }

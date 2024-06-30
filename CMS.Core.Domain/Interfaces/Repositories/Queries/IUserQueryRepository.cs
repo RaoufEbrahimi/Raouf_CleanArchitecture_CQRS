@@ -12,8 +12,8 @@ namespace CMS.Core.Domain.Interfaces.Repositories.Queries
     public interface IUserQueryRepository
     {
         Task<User> Find(int id);
-        Task<bool> AnyAsync(Expression<Func<User, bool>> expression);
-        Task<IEnumerable<TResult>> GetListAsNoTrackingAsync<TResult>(Expression<Func<User, bool>> expression, Expression<Func<User, TResult>> selector);
-        Task<TResult> FirstOrDefaultAsyncAsNoTracking<TResult>(Expression<Func<User, bool>> expression, Expression<Func<User, TResult>> selector);
+        Task<bool> AnyAsync(Expression<Func<User, bool>> expression, CancellationToken cancellationToken);
+        Task<IEnumerable<TResult>> GetListAsNoTrackingAsync<TResult>(Expression<Func<User, bool>> expression, Expression<Func<User, TResult>> selector, CancellationToken cancellationToken);
+        Task<TResult> FirstOrDefaultAsyncAsNoTracking<TResult>(Expression<Func<User, bool>> expression, Expression<Func<User, TResult>> selector, CancellationToken cancellationToken);
     }
 }

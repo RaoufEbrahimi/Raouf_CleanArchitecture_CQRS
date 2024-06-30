@@ -2,7 +2,7 @@
 
 namespace CMS.Core.Application.Admin.DTOs.Blog;
 
-public class UsersBlogsDto : IUsersBlogsDto
+public record UsersBlogsDto : IUsersBlogsDto
 {
     public int BlogId { get; set; }
     public int UserId { get; set; }
