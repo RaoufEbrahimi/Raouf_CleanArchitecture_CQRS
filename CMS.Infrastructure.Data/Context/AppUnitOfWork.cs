@@ -17,9 +17,9 @@ namespace CMS.Infrastructure.Data.UnitOfWork
         public DbSet<User> Users => _context.Set<User>();
         public DbSet<Blog> Blog => _context.Set<Blog>();
 
-        public Task<int> SaveChangeAsync()
+        public async Task<int> SaveChangeAsync()
         {
-            return _context.SaveChangesAsync();
+            return await _context.SaveChangesAsync();
         }
     }
 }

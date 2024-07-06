@@ -1,7 +1,1 @@
-﻿namespace CMS.Infrastructure.Utility
-{
-    public class GlobalUsing
-    {
-
-    }
-}
+﻿global using CMS.Infrastructure.Utility.Interfaces;

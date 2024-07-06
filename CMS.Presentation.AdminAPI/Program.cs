@@ -1,3 +1,4 @@
+using CMS.Infrastructure.Utility;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Serilog;
@@ -8,18 +9,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Host.UseSerilog((context, services, configuration) => configuration
-    .MinimumLevel.Debug()
-    .Enrich.FromLogContext()
-    .WriteTo.Console()
-    .WriteTo.File("logs/log.txt", rollingInterval: RollingInterval.Day));
-
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddInfrastructureUtilityServices(builder.Configuration);
+builder.Host.AddLoggingConfig(builder.Configuration);
 
-
-var key = Encoding.ASCII.GetBytes("YourSecretKeyHere"); // Replace with your secret key
+var key = Encoding.ASCII.GetBytes("YourSecretKeyHere");
 
 builder.Services.AddAuthentication(options =>
 {
