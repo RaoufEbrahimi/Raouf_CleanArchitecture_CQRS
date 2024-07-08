@@ -3,7 +3,7 @@ using CMS.Core.Domain.Entities;
 using CMS.Core.Domain.Interfaces.DTOs.Blog;
 
 
-namespace CMS.Core.Domain.Interfaces.Repositories.Queries
+namespace CMS.Core.Domain.Interfaces.DAL.Queries
 {
     public interface IBlogQueryRepository
     {

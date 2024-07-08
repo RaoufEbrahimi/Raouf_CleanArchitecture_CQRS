@@ -10,7 +10,7 @@
     <Folder Include="Common\Exceptions\" />
     <Folder Include="Common\Interfaces\" />
     <Folder Include="Common\Services\User\" />
-    <Folder Include="DTOs\User\" />
+    <Folder Include="Features\BlogManagement\Commands\" />
     <Folder Include="Features\UserManagement\Queries\UserSearch\" />
     <Folder Include="Features\UserManagement\Queries\" />
   </ItemGroup>

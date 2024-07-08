@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CMS.Core.Domain.Interfaces.Repositories.Queries
+namespace CMS.Core.Domain.Interfaces.DAL.Queries
 {
     public interface IUserQueryRepository
     {

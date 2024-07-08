@@ -1,5 +1,4 @@
-﻿using CMS.Infrastructure.Utility.Interfaces;
-using Serilog;
+﻿using Serilog;
 
 public class LoggerService : ILoggerService
 {
@@ -8,6 +7,11 @@ public class LoggerService : ILoggerService
     public LoggerService()
     {
         _logger = Log.ForContext<LoggerService>();
+    }
+
+    public void LogDebug(string message)
+    {
+        _logger.Debug(message);
     }
 
     public void LogInformation(string message)
@@ -23,5 +27,10 @@ public class LoggerService : ILoggerService
     public void LogError(string message, Exception ex)
     {
         _logger.Error(ex, message);
+    }
+
+    public void LogCritical(string message, Exception ex)
+    {
+        _logger.Fatal(ex, message);
     }
 }

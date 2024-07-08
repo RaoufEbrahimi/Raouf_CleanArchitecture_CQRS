@@ -1,3 +1,4 @@
+using CMS.Infrastructure.Data;
 using CMS.Infrastructure.Utility;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -11,6 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddInfrastructureDataServices(builder.Configuration);
 builder.Services.AddInfrastructureUtilityServices(builder.Configuration);
 builder.Host.AddLoggingConfig(builder.Configuration);
 

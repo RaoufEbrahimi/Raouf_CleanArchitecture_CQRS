@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CMS.Core.Domain.Interfaces.Repositories
+namespace CMS.Core.Domain.Interfaces.DAL
 {
     public interface IUnitOfWork
     {
-        Task<int> SaveChangeAsync();
+        Task<int> SaveChangeAsync(CancellationToken cancellationToken);
     }
 }

@@ -12,9 +12,9 @@ namespace CMS.Infrastructure.Data;
 
 public static class ConfigurationServices
 {
-    public static IServiceCollection RegisterInfrastructureDataServices(this IServiceCollection services, IConfiguration configuration)
+    public static IServiceCollection AddInfrastructureDataServices(this IServiceCollection services, IConfiguration configuration)
     {
-        services.AddDbContext<CMSDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("ConnectionString")));
+        services.AddDbContext<CMSDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("MyDbContext")));
 
 
         services.AddScoped<IUnitOfWork, AppUnitOfWork>();

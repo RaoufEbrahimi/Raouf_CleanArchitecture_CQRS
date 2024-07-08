@@ -32,11 +32,12 @@ public static class ConfigurationServices
         };
 
         Log.Logger = new LoggerConfiguration()
+            .ReadFrom.Configuration(configuration)
             .MinimumLevel.Debug()
-            .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
+            
             .Enrich.FromLogContext()          
             .WriteTo.MSSqlServer(
-                connectionString: configuration.GetConnectionString("ConnectionString"),
+                connectionString: configuration.GetConnectionString("MyDbContext"),
                 sinkOptions: new MSSqlServerSinkOptions
                 {
                     TableName = "Logs",

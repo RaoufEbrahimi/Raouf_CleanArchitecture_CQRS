@@ -1,1 +1,1 @@
-﻿global using CMS.Infrastructure.Utility.Interfaces;
+﻿global using CMS.Core.Domain.Interfaces.Services;
