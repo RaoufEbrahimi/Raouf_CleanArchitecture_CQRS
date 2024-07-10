@@ -13,8 +13,8 @@ D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Utility\obj\Debug\ne
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Utility\obj\Debug\net8.0\CMS.Infrastructure.Utility.AssemblyInfo.cs
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Utility\obj\Debug\net8.0\CMS.Infrastructure.Utility.csproj.CoreCompileInputs.cache
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Utility\obj\Debug\net8.0\CMS.Infrastructure.Utility.sourcelink.json
-D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Utility\obj\Debug\net8.0\CMS.Infrastructure.Utility.csproj.CopyComplete
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Utility\obj\Debug\net8.0\CMS.Infrastructure.Utility.dll
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Utility\obj\Debug\net8.0\refint\CMS.Infrastructure.Utility.dll
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Utility\obj\Debug\net8.0\CMS.Infrastructure.Utility.pdb
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Utility\obj\Debug\net8.0\ref\CMS.Infrastructure.Utility.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Infrastructure.Utility\obj\Debug\net8.0\CMS.Infr.314C63E7.Up2Date

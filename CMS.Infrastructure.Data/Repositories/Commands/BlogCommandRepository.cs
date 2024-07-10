@@ -1,8 +1,6 @@
-﻿
+﻿namespace CMS.Infrastructure.Data.Repositories.Commands;
 
-namespace CMS.Infrastructure.Data.Repositories.Commands;
-
-public class BlogCommandRepository(CMSDbContext context) : GenericRepository<Blog>(context), IBlogCommandRepository
+public class BlogCommandRepository(CMSDbContext context) : GenericCommandRepository<Blog>(context), IBlogCommandRepository
 {
-
+ 
 }

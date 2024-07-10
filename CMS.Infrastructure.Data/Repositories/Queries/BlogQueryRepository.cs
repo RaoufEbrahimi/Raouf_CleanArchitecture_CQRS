@@ -3,14 +3,10 @@ using CMS.Core.Domain.Interfaces.DTOs.Blog;
 
 namespace CMS.Infrastructure.Data.Repositories;
 
-public class BlogQueryRepository(CMSDbContext context) : GenericRepository<Blog>(context), IBlogQueryRepository
+public class BlogQueryRepository(CMSDbContext context) : GenericQueryRepository<Blog>(context), IBlogQueryRepository
 {
-    public Task<Blog> Find(int id)
-    {
-        throw new NotImplementedException();
-    }
-
-    public async Task<IEnumerable<IUsersBlogsDto>> GetListUserBlogs(int id)
+   
+    public async Task<IEnumerable<IUsersBlogsDto>> GetListUserBlogs(int id, CancellationToken cancellationToken)
     {            
         return await _context.Set<Blog>().Where(d=>d.UserId == id).Select(t=> new UsersBlogsDto
         {
@@ -19,6 +15,6 @@ public class BlogQueryRepository(CMSDbContext context) : GenericRepository<Blog>
             BlogTitle = t.Title,
             UserFullName = t.User.FirstName + " " + t.User.LastName
 
-        }).ToListAsync();
+        }).ToListAsync(cancellationToken);
     }
 }

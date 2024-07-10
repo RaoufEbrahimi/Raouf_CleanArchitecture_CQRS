@@ -8,8 +8,8 @@ namespace CMS.Core.Domain.Interfaces.DAL.Queries
     public interface IBlogQueryRepository
     {
 
-        Task<Blog> Find(int id);
-        Task<IEnumerable<IUsersBlogsDto>> GetListUserBlogs(int id);
+        Task<Blog> Find(int id, CancellationToken cancellationToken);
+        Task<IEnumerable<IUsersBlogsDto>> GetListUserBlogs(int id, CancellationToken cancellationToken);
 
     }
 }

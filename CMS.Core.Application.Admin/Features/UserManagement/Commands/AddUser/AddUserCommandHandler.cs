@@ -1,13 +1,16 @@
-﻿namespace CMS.Core.Application.Admin.Features.UserManagement.Commands.AddUser;
+﻿using CMS.Core.Domain.Interfaces.DAL.Commands;
+
+namespace CMS.Core.Application.Admin.Features.UserManagement.Commands.AddUser;
 
 public class AddUserCommandHandler(IUserCommandRepository userCommandRepository) : IRequestHandler<AddUserCommand, bool>
 {
     private readonly IUserCommandRepository _userCommandRepository = userCommandRepository;
 
+
     public async Task<bool> Handle(AddUserCommand request, CancellationToken cancellationToken)
     {
         try
-        {
+        {        
             await _userCommandRepository.Add(new User
             {
                 Addres = request.Addres,

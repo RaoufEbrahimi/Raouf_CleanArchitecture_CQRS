@@ -9,8 +9,8 @@ D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\ne
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\CMS.Core.Application.Admin.AssemblyInfo.cs
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\CMS.Core.Application.Admin.csproj.CoreCompileInputs.cache
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\CMS.Core.Application.Admin.sourcelink.json
-D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\CMS.Core.Application.Admin.csproj.CopyComplete
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\CMS.Core.Application.Admin.dll
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\refint\CMS.Core.Application.Admin.dll
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\CMS.Core.Application.Admin.pdb
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\ref\CMS.Core.Application.Admin.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Core.Application.Admin\obj\Debug\net8.0\CMS.Core.E9B26ACF.Up2Date

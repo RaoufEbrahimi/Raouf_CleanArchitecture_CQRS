@@ -57,7 +57,6 @@ D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\obj\Debug\net8.
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CMS.Presentation.WebAPI.props
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\obj\Debug\net8.0\staticwebassets.pack.json
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\obj\Debug\net8.0\scopedcss\bundle\CMS.Presentation.WebAPI.styles.css
-D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\obj\Debug\net8.0\CMS.Presentation.WebAPI.csproj.CopyComplete
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\obj\Debug\net8.0\CMS.Presentation.WebAPI.dll
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\obj\Debug\net8.0\refint\CMS.Presentation.WebAPI.dll
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\obj\Debug\net8.0\CMS.Presentation.WebAPI.pdb
@@ -179,3 +178,16 @@ D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\CMS.Infrastructure.Data.pdb
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\CMS.Infrastructure.Utility.pdb
 D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\CMS.Core.Application.Admin.pdb
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\FluentValidation.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\Serilog.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\Serilog.Sinks.MSSqlServer.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll
+D:\Projects\Raouf_CleanArchitecture_CQRS\CMS.Presentation.WebAPI\obj\Debug\net8.0\CMS.Pres.08D95D6D.Up2Date
