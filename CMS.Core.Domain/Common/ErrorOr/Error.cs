@@ -1,6 +1,6 @@
 ﻿using CMS.Core.Domain.Enums;
 
-namespace CMS.Infrastructure.Utility.Share.ErrorOr;
+namespace CMS.Core.Domain.Common.ErrorOr;
 
 public readonly record struct Error
 {

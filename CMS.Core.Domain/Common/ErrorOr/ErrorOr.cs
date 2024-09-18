@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CMS.Infrastructure.Utility.Share.ErrorOr;
+namespace CMS.Core.Domain.Common.ErrorOr;
 
 public readonly record struct ErrorOr<TValue>
 {
