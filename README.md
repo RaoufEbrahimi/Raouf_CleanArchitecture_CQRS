@@ -9,6 +9,7 @@ This project demonstrates the implementation of **Clean Architecture** in a .NET
   - [CQRS (Command Query Responsibility Segregation)](#cqrs-command-query-responsibility-segregation)
   - [Repository Pattern & Generic Repository](#repository-pattern--generic-repository)
   - [ErrorOr\<T\> Result Pattern](#errorort-result-pattern)
+  - [Separate Application Layers](#separate-application-layers)
 - [Validation](#validation)
 - [Security](#security)
 - [Logging](#logging)
@@ -72,6 +73,18 @@ In the **Domain Layer**, the project employs the **ErrorOr\<T\>** feature as a *
 - **Type Safety**: Enforces compile-time checking of errors, ensuring that all possible outcomes are handled.
 - **Improved Code Quality**: Reduces reliance on exceptions and makes the code more readable and maintainable.
 
+### Separate Application Layers
+This project considers two separate **Application Layers**:
+- **Admin Application Layer**: Manages the business logic specific to administrative functionalities.
+- **Web Audience Application Layer**: Handles the logic for public-facing web functionalities.
+
+By separating these layers, the project maintains clean boundaries between the logic intended for different types of users.
+
+**Benefits**:
+- **Isolation of Concerns**: Ensures that logic specific to admin and public users are kept separate.
+- **Scalability**: Allows for each layer to evolve independently without affecting the other.
+- **Maintainability**: Improves clarity and organization by separating business rules for different roles.
+
 ## Validation
 Validation is handled using **FluentValidation**, which ensures that the application data is valid before processing it.
 
@@ -116,7 +129,7 @@ The project includes unit tests, employing **xUnit** as the testing framework. I
 - **Clarity**: Clear API documentation for consumers.
 
 ## Conclusion
-This .NET 8 project showcases how to implement **Clean Architecture**, **CQRS**, the **Repository Pattern**, and the **ErrorOr\<T\>** Result Pattern in a structured and scalable manner. By leveraging modern technologies and patterns, it ensures maintainability, testability, and ease of expansion.
+This .NET 8 project showcases how to implement **Clean Architecture**, **CQRS**, the **Repository Pattern**, the **ErrorOr\<T\>** Result Pattern, and separate application layers for the **Admin** and **Web Audience** projects. By leveraging modern technologies and patterns, it ensures maintainability, testability, and ease of expansion.
 
 Please note that this project is still a **work in progress**, and I will continue to improve and enhance it with additional features and refinements. I'm eager to receive **feedback** and **contributions** from the community to help further its development.
 
