@@ -51,16 +51,20 @@ The project employs the **CQRS pattern** by separating commands (write operation
 - **Scalability**: Read and write models can evolve independently.
 - **Maintainability**: Clear separation leads to easier understanding and debugging of operations.
 
-### Repository Pattern & Generic Repository
-The **Repository Pattern** is implemented to abstract away the data access logic and provide a clean API to the rest of the application. A **Generic Repository** is used to reduce code duplication and provide reusable CRUD operations for various entities.
+### Repository Pattern & Generic Repositories
 
-- **Infrastructure Layer**: Implements repository classes that interact with **Entity Framework Core** to manage data persistence.
-- **Generic Repository**: Provides a common interface for basic CRUD operations, ensuring consistency across different data models.
+This project employs a **Repository Pattern** to enhance the separation of concerns and maintainability of the codebase. The repositories are structured as follows:
+
+1. **Command and Query Separation**: The project features distinct repositories for handling commands and queries, which aligns with the **CQRS (Command Query Responsibility Segregation)** pattern. This separation allows for optimized performance and scalability by enabling independent evolution of read and write operations.
+
+2. **Generic Repositories**: Generic repositories are utilized for basic command and query operations. They do not have interfaces, as they are designed to serve fundamental CRUD operations across multiple entities. This approach helps reduce code duplication and fosters consistency in data access.
+
+3. **Specific Repository Interfaces**: Additional repository classes are defined for specific entities or aggregations of entities. These repository classes inherit from both the generic repositories and the interfaces for the specific entities or aggregations. This structure allows for the implementation of specialized methods while leveraging the common functionality provided by the generic repositories.
 
 **Benefits**:
-- **Decoupling**: Application logic is decoupled from data access logic.
-- **Reusability**: The generic repository allows reuse of CRUD operations across different entities.
-- **Testability**: Easier to mock and unit test without depending on a specific database implementation.
+- **Reduced Code Duplication**: By using generic repositories, common operations are centralized, minimizing repetitive code and enhancing maintainability.
+- **Clear Separation of Responsibilities**: The separation between command and query repositories promotes clearer architectural boundaries, making it easier to manage changes.
+- **Improved Testability**: The interface-based approach allows for easier mocking and unit testing, improving the overall quality of the application.
 
 ### ErrorOr\<T\> Result Pattern
 In the **Domain Layer**, the project employs the **ErrorOr\<T\>** feature as a **Result Pattern** to handle operation outcomes in a clean and consistent manner. This pattern allows methods to return either a successful result of type **T** or an error, encapsulating both success and failure scenarios in a single, predictable return type.
@@ -76,7 +80,7 @@ In the **Domain Layer**, the project employs the **ErrorOr\<T\>** feature as a *
 ### Separate Application Layers
 This project considers two separate **Application Layers**:
 - **Admin Application Layer**: Manages the business logic specific to administrative functionalities.
-- **Web Audience Application Layer**: Handles the logic for public-facing web functionalities.
+- **Web Application Layer**: Handles the logic for public-facing web functionalities.
 
 By separating these layers, the project maintains clean boundaries between the logic intended for different types of users.
 
