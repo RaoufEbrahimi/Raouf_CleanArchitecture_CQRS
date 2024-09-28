@@ -8,9 +8,10 @@ This project demonstrates the implementation of **Clean Architecture** in a .NET
   - [Clean Architecture](#clean-architecture)
   - [CQRS (Command Query Responsibility Segregation)](#cqrs-command-query-responsibility-segregation)
   - [Repository Pattern & Generic Repository](#repository-pattern--generic-repository)
+  - [Unit of Work Pattern](#unit-of-work-pattern)
   - [ErrorOr\<T\> Result Pattern](#errorort-result-pattern)
   - [Separate Application Layers](#separate-application-layers)
-  - [Unit of Work Pattern](#unit-of-work-pattern)
+ 
 - [Validation](#validation)
 - [Security](#security)
 - [Logging](#logging)
@@ -68,6 +69,13 @@ This project employs a **Repository Pattern** to enhance the separation of conce
 - **Improved Flexibility**: The ability to use different ORMs or databases for commands and queries increases adaptability to various project requirements.
 - **Improved Testability**: The interface-based approach allows for easier mocking and unit testing, improving the overall quality of the application.
 
+### Unit of Work Pattern
+The project implements a **Unit of Work** pattern alongside the repository pattern. This allows for the grouping of multiple operations into a single transaction, ensuring that changes are only saved once all modifications are complete. This approach enhances data integrity and consistency.
+
+**Benefits**:
+- **Enhanced Data Integrity**: Ensures that all changes are saved in a single transaction, preventing partial updates and maintaining consistency.
+- **Simplified Transaction Management**: Encapsulates transaction logic, making it easier to manage changes across multiple repositories.
+
 ### ErrorOr\<T\> Result Pattern
 In the **Domain Layer**, the project employs the **ErrorOr\<T\>** feature as a **Result Pattern** to handle operation outcomes in a clean and consistent manner. This pattern allows methods to return either a successful result of type **T** or an error, encapsulating both success and failure scenarios in a single, predictable return type.
 
@@ -91,12 +99,6 @@ By separating these layers, the project maintains clean boundaries between the l
 - **Scalability**: Allows for each layer to evolve independently without affecting the other.
 - **Maintainability**: Improves clarity and organization by separating business rules for different roles.
 
-### Unit of Work Pattern
-The project implements a **Unit of Work** pattern alongside the repository pattern. This allows for the grouping of multiple operations into a single transaction, ensuring that changes are only saved once all modifications are complete. This approach enhances data integrity and consistency.
-
-**Benefits**:
-- **Enhanced Data Integrity**: Ensures that all changes are saved in a single transaction, preventing partial updates and maintaining consistency.
-- **Simplified Transaction Management**: Encapsulates transaction logic, making it easier to manage changes across multiple repositories.
 
 ## Validation
 Validation is handled using **FluentValidation**, which ensures that the application data is valid before processing it.
