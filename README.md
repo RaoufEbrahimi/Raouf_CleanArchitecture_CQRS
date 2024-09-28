@@ -55,7 +55,7 @@ The project employs the **CQRS pattern** by separating commands (write operation
 
 This project employs a **Repository Pattern** to enhance the separation of concerns and maintainability of the codebase. The repositories are structured as follows:
 
-1. **Command and Query Separation**: The project features distinct repositories for handling commands and queries, which aligns with the **CQRS (Command Query Responsibility Segregation)** pattern. This separation allows for optimized performance and scalability by enabling independent evolution of read and write operations.
+1. **Command and Query Separation**: The project features distinct repositories for handling commands and queries, which aligns with the **CQRS (Command Query Responsibility Segregation)** pattern. This separation not only allows for optimized performance and scalability but also enables the use of different ORMs or databases for commands and queries, providing flexibility in data storage and retrieval.
 
 2. **Generic Repositories**: Generic repositories are utilized for basic command and query operations. They do not have interfaces, as they are designed to serve fundamental CRUD operations across multiple entities. This approach helps reduce code duplication and fosters consistency in data access.
 
@@ -64,7 +64,9 @@ This project employs a **Repository Pattern** to enhance the separation of conce
 **Benefits**:
 - **Reduced Code Duplication**: By using generic repositories, common operations are centralized, minimizing repetitive code and enhancing maintainability.
 - **Clear Separation of Responsibilities**: The separation between command and query repositories promotes clearer architectural boundaries, making it easier to manage changes.
+- **Improved Flexibility**: The ability to use different ORMs or databases for commands and queries increases adaptability to various project requirements.
 - **Improved Testability**: The interface-based approach allows for easier mocking and unit testing, improving the overall quality of the application.
+
 
 ### ErrorOr\<T\> Result Pattern
 In the **Domain Layer**, the project employs the **ErrorOr\<T\>** feature as a **Result Pattern** to handle operation outcomes in a clean and consistent manner. This pattern allows methods to return either a successful result of type **T** or an error, encapsulating both success and failure scenarios in a single, predictable return type.
